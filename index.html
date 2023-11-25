@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+    <div class="HeadContainer">
+        <h3 class="Head1">
+            Sorting Visualization
+        </h3>
+    </div>
+    <div id="array-container">
+        <div class="bar">
+            <span class="bar-label">42</span>
+          </div>
+    </div>
+
+    <div class="Buttons">
+        <div class="click">
+            <button id="randomize">Randomize</button>
+            <label for="speed">Speed:</label>
+            <input type="range" id="speed" min="1" max="100" value="50">
+        </div>
+        <div class="sortingalgo">
+            <div class="sorting-row">
+                <button id="bubble">Bubble Sort</button>
+                <button id="selection">Selection Sort</button>
+                <button id="insertion">Insertion Sort</button>
+            </div>
+            <div class="sorting-row">
+                <button id="quick">Quick Sort</button>
+                <button id="merge">Merge Sort</button>
+                <button id="shell">Shell Sort</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body{
+    font-family: PlayFair-Display;
+    background-color: #EEE2DE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.HeadContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Head1{
+    font-size: 1.5em;
+    color: #B31312;
+}
+.Buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60%;
+    margin-top: em;
+}
+.click{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+.sortingalgo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sorting-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.bar {
+    position: relative;
+    width: 3.3%;
+    margin: 0 3px;
+    display: inline-block;
+    background-color: #3498db;
+    border-radius:5%;
+    border: solid;
+    border-color: #000000;
+    box-shadow: 0 0 10px 0 #000000;
+}
+
+.bar-label {
+    position: absolute;
+    bottom: -16px; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.5em;
+    color: #000000;
+    font-weight: bolder;
+}
+button{
+    font-size: 0.7em;
+    width: 20%;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #192665;
+    margin: 1em;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0#070404;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5%;
+}
+button:hover{
+    background-color: #2980b9;
+}
+button:active{
+    background-color: #1f618d;
+}
+#array-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    width: auto;
+    width: 95%;
+    height: 8em;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px 0 #000;
+}
+#randomize{
+    width: 30%;
+    background-color: #B31312;
+}
+#randomize:hover{
+    background:#b5b5b5;
+    color: #000;
+}
